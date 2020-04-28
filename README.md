@@ -19,5 +19,5 @@ make
 ## Usage
 - [Tests](docs/tests.md)
 - [Examples](docs/examples.md)
-
+- [Notes](docs/notes.md)
 

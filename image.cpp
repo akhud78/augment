@@ -26,6 +26,6 @@ class ImageTest : public ::testing::Test {
 };
 
 // ./app --gtest_filter=ImageTest.*
-TEST_F(ImageTest, show) {
+TEST_F(ImageTest, DISABLED_show) {
     ASSERT_EQ(image.show(pause), 0);
 }

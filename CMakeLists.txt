@@ -12,7 +12,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
  
-set(SOURCE augment.cpp image.cpp) 
+set(SOURCE augment.cpp image.cpp drawing.cpp) 
 add_executable(${PROJECT_NAME} ${SOURCE})
 target_compile_options(${PROJECT_NAME} PRIVATE -Werror -Wall -Wextra)
 target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS} ${GTEST_LIBRARIES} pthread)
