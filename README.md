@@ -1,4 +1,5 @@
-# augment
+![augment](media/augment.png "augment")
+
 Dataset augmentation
 
 ---
