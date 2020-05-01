@@ -20,9 +20,3 @@
     - Color jitter
     - Saturation and Value jitter
 
-## OpenCV
-- [OpenCV Tutorials](https://docs.opencv.org/4.1.1/d9/df8/tutorial_root.html) 4.1.1
-
-### Image Processing
-- [Basic Drawing](https://docs.opencv.org/4.1.1/d3/d96/tutorial_basic_geometric_drawing.html)
-- [Random generator and text with OpenCV](https://docs.opencv.org/4.1.1/df/d61/tutorial_random_generator_and_text.html)
