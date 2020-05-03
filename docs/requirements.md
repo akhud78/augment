@@ -8,6 +8,7 @@
     - [Googletest Primer](https://github.com/google/googletest/blob/master/googletest/docs/primer.md)
     - [Advanced googletest Topics](https://github.com/google/googletest/blob/master/googletest/docs/advanced.md)
 * OpenCV 4.1.1
+* Boost 1.58
 
 ### Google Test
 ```
@@ -19,5 +20,10 @@ sudo make
  
 # copy or symlink libgtest.a and libgtest_main.a to your /usr/lib folder
 sudo cp *.a /usr/lib
+```
+
+### Boost
+```
+sudo apt-get install libboost-all-dev
 ```
 
